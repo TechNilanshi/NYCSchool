@@ -19,7 +19,7 @@ fun navigation() {
         }
 
         composable(
-            route = ScreenList.SchoolDetailScreen.route + "/{name} +/{name2}",
+            route = ScreenList.SchoolDetailScreen.route + "/{name}" + "/{name2}",
             arguments = listOf(navArgument("name") {
                 type = NavType.StringType
                 defaultValue = "Nilanshi"
