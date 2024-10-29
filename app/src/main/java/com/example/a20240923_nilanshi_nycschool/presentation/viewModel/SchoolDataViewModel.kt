@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.example.a20240923_nilanshi_nycschool.domain.repository.SchoolListRepository
 import com.example.a20240923_nilanshi_nycschool.presentation.ui.SchoolViewState
-import com.example.a20240923_nilanshi_nycschool.utils.Event
+import com.example.a20240923_nilanshi_nycschool.presentation.utils.Event
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.asStateFlow

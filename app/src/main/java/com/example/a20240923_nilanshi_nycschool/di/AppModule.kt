@@ -1,7 +1,7 @@
 package com.example.a20240923_nilanshi_nycschool.di
 
 import com.example.a20240923_nilanshi_nycschool.data.remote.SchoolListApi
-import com.example.a20240923_nilanshi_nycschool.utils.Constants
+import com.example.a20240923_nilanshi_nycschool.presentation.utils.Constants
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn

@@ -1,4 +1,4 @@
-package com.example.a20240923_nilanshi_nycschool.navigation
+package com.example.a20240923_nilanshi_nycschool.presentation.navigation
 
 import androidx.compose.runtime.Composable
 import androidx.navigation.NavType
@@ -34,7 +34,7 @@ fun navigation() {
             ),
         ) { entry ->
             SchoolDetailScreen(
-                score =  entry.arguments?.getString("name"),
+                address =  entry.arguments?.getString("name"),
                 detail =  entry.arguments?.getString("name2")
 
             )

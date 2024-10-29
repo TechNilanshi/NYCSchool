@@ -1,4 +1,4 @@
-package com.example.a20240923_nilanshi_nycschool.ui.theme
+package com.example.a20240923_nilanshi_nycschool.presentation.ui.theme
 
 import android.app.Activity
 import android.os.Build

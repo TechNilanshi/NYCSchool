@@ -1,4 +1,4 @@
-package com.example.a20240923_nilanshi_nycschool
+package com.example.a20240923_nilanshi_nycschool.presentation
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -10,11 +10,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import androidx.navigation.NavController
-import androidx.navigation.compose.rememberNavController
-import com.example.a20240923_nilanshi_nycschool.navigation.navigation
-import com.example.a20240923_nilanshi_nycschool.presentation.ui.SchoolListScreen
-import com.example.a20240923_nilanshi_nycschool.ui.theme._20240923_Nilanshi_NYCSchoolTheme
+import com.example.a20240923_nilanshi_nycschool.presentation.navigation.navigation
+import com.example.a20240923_nilanshi_nycschool.presentation.ui.theme._20240923_Nilanshi_NYCSchoolTheme
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint

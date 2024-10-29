@@ -1,4 +1,4 @@
-package com.example.a20240923_nilanshi_nycschool.utils
+package com.example.a20240923_nilanshi_nycschool.presentation.utils
 
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.receiveAsFlow

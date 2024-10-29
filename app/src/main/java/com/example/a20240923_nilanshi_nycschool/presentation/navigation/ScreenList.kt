@@ -1,4 +1,4 @@
-package com.example.a20240923_nilanshi_nycschool.navigation
+package com.example.a20240923_nilanshi_nycschool.presentation.navigation
 
 sealed class ScreenList(val route : String){
     object SchoolListScreen : ScreenList("SchoolList")
